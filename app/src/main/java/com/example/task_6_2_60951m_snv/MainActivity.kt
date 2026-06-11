@@ -1,5 +1,6 @@
 package com.example.task_6_2_60951m_snv
 
+import android.view.View
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         // Кнопка «Показать» — делает видимой кнопку «Закрыть»
         buttonShow.setOnClickListener {
-            buttonClose.visibility = android.view.View.VISIBLE
+            buttonClose.visibility = View.VISIBLE
             buttonClose.isEnabled = true
         }
 
